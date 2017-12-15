@@ -1,0 +1,82 @@
+* {
+	font-family: Montserrat;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+}
+
+.page-header {
+	width: 300px;
+	padding-left: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo-image {
+	width: 220px;
+}
+
+.page {
+	min-width: 400px;
+	max-width: 1500px;
+	width: 100%;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.text-area {
+	background-color: rgb(251, 159, 164);
+	background-color: rgba(251, 159, 164, 0.5);
+	padding: 8px 20px 20px 20px;
+	border-radius: 2%;
+	min-width: 320px;
+	max-width: 720px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.text-area-response {
+	background-color: #F6B1C3;
+	padding: 8px 20px 20px 20px;
+	border-radius: 2%;
+	min-width: 320px;
+	max-width: 720px;
+	margin: 20px auto 8px auto;
+}
+
+.pie-start {
+	font-size: 120%;
+}
+
+.hidden {
+	display: none;
+}
+
+.action-button {
+	width: 150px;
+	padding: 8px;
+	border-radius: 2%;
+	margin-left: 5%;
+	background-color: rgb(230,230,250);
+	border: solid 1px #E58EF4;
+}
+
+.submit {
+	margin-top: 10px;
+}
+
+.radio-button {
+	margin-left: 5%;
+	padding: 35px;
+}
+
+.pie-answer-choice {
+	margin-left: 10px;
+}
+
+.score {
+	background-color: #FFFF9D;
+	width: 240px;
+	border: solid 1px white;
+	border-radius: 2%;
+	padding: 5px;
+}

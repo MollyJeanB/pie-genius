@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pie Genius</title>
+	<meta name="description" content="Pie Genius is a quiz to test your knowledge of humanity's greatest pastry-encased invention.">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+  	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<main role="main">
+		<header role="banner" class="page-header"><img id="pie" src="https://i.imgur.com/rGiVR01.png" class="logo-image" alt="Pie Genius logo">
+		</header>
+		<section role="region" class="page start-page">
+			<div class=text-area>
+				<p>Test your knowledge of humanity's greatest pastry-encased invention.</p>
+				<p class="pie-start">Who wants pie?</p>
+				<button role="button" class="start action-button">I want pie!</button>
+			</div>
+		</section>
+		<section role="region" class="page question-page hidden">
+			<div class="text-area"> 
+				<p class="this-question">Question: <span class="current-question-number"></span></p>
+				<p class="score">Pie Q: <span class="current-score"></span></p>
+				<form name="pie-question-form" class="form-text">
+					<fieldset>
+						<legend class="pie-question"></legend>
+						<div>
+							<input id=1 type="radio" name="answerChoice" data-choice=1 class="radio-button"><label class= "pie-answer-choice" for="1"></label><br>
+						</div>
+						<div>
+							<input id=2 type="radio" name="answerChoice" data-choice=2 class="radio-button"><label class= "pie-answer-choice" for="2"></label><br>
+						</div>
+						<div>
+							<input id=3 type="radio" name="answerChoice" data-choice=3 class="radio-button"><label class= "pie-answer-choice" for="3"></label><br>
+						</div>
+						<div> 
+							<input id=4 type="radio" name="answerChoice" data-choice=4 class="radio-button"><label class= "pie-answer-choice" for="4"></label><br>
+						</div>
+					</fieldset>
+					<div>
+						<button role="button" class="submit action-button">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="text-area-response hidden">
+				<p class="question-feedback"></p>
+				<button role="button" class="next action-button">Next</button>
+			</div>
+		</section>
+		<section role="region" class="page final-page hidden">
+			<div class="text-area">
+				<p>Congratulations, pie genius! Your bottom is far from soggy.</p>
+				<p>Your final score is <span class="final-score"></span></p>
+				<button role="button" class="restart action-button">Pie again!</button>
+			</div>	
+		</section>
+	</main>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
